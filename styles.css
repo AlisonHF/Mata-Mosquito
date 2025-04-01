@@ -1,0 +1,56 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+
+body {
+    margin: 0px;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /*cursor: url('assets/mata_mosquito.png'), auto;*/
+}
+
+#container-vidas {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 10px 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.coracao {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+#seletor-dificuldade {
+    width: 130px;
+    text-align: center;
+}
+
+#opcoes-inicio-jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-iniciar {
+    margin: 20px;
+    width: 200px;
+}
+
+#seletor_dificuldade {
+    margin: 20px;
+    width: 200px;
+}
+
+.texto {
+    color:white;
+    font-weight: bold;
+    text-shadow: 5px 2px 8px black;
+}

@@ -21,30 +21,25 @@ body {
     bottom: 0px;
 }
 
+#seletor-dificuldade {
+    width: 130px;
+    text-align: center;
+}
+
 .coracao {
     width: 50px;
     height: 50px;
     padding: 5px;
 }
 
-#seletor-dificuldade {
-    width: 130px;
-    text-align: center;
-}
-
-#opcoes-inicio-jogo {
+.opcoes-jogo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#botao-iniciar {
-    margin: 20px;
-    width: 200px;
-}
-
-#seletor_dificuldade {
+.botao {
     margin: 20px;
     width: 200px;
 }
@@ -53,4 +48,12 @@ body {
     color:white;
     font-weight: bold;
     text-shadow: 5px 2px 8px black;
+}
+
+.contador {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
